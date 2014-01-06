@@ -1,4 +1,4 @@
- @edited8 @fb_like @features @javascript @Childrens.advil.com
+ @fb_like @features @javascript @Childrens.advil.com
  Feature: Fb like feature
  
    Scenario: "Fb like"
