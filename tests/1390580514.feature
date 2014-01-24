@@ -1,4 +1,4 @@
- 
+ @example
  Feature: Be able to access Turkey webinar site, login, identifying header and footer.
  
    Scenario: "Identifying header and footer on Turkey webinar"
