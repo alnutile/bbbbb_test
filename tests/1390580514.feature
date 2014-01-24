@@ -5,9 +5,10 @@
      Given I am on "/"
      And I press the xpath "//*[@id='block-menu-menu-header-menu-anonymous']/div/ul/li/a"
      And I press the xpath "//*[@id='block-pfizer-webinars-login-pfizer-connect-block']/div/div/button"
+     Given I wait for "4" seconds
      When I switch to popup
      And I press the xpath "//*[@id='ctl00_ctl00_cphContent_cphContent_login_loginLite_btnConfirm']"
-     Then I should see "'logo'"
+     Then I should see "Oturumu kapat"
      Then I should see "Türkiye’deki sağlık çalışanları için"
      Then I should see "Kullanıcı adı Pratisyen Doktor Nic Antonini"
      Then I should see "Bize Ulaşın"
