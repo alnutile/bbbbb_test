@@ -8,6 +8,8 @@
      Given I wait for "4" seconds
      When I switch to popup
      And I press the xpath "//*[@id='ctl00_ctl00_cphContent_cphContent_login_loginLite_btnConfirm']"
+     Then I switch back to original window
+     Given I wait for "4" seconds
      Then I should see "Oturumu kapat"
      Then I should see "Türkiye’deki sağlık çalışanları için"
      Then I should see "Kullanıcı adı Pratisyen Doktor Nic Antonini"
