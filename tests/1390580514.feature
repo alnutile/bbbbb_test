@@ -11,14 +11,4 @@
      Then I switch back to original window
      Given I wait for "4" seconds
      Then I should see "Oturumu kapat"
-     Then I should see "Türkiye’deki sağlık çalışanları için"
-     Then I should see "Kullanıcı adı Pratisyen Doktor Nic Antonini"
-     Then I should see "Bize Ulaşın"
-     Then I should see "Oturumu kapat"
-     Then I should see "'logo-footer'"
-     Then I should see "Kullanım Koşulları"
-     Then I should see "Bize Ulaşın"
      Then I should see "pfizer.com.tr"
-     Then I should see "Gizlilik Politikası"
-     Then I should see "© Pfizer 2012"
-     Then I should see "Bu web sitesinde sunulan bilgiler yalnızca Türkiye’deki sağlık çalışanlarının kullanımı için hazırlanmıştır.
