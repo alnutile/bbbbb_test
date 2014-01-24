@@ -3,11 +3,10 @@
  
    Scenario: "Identifying header and footer on Turkey webinar"
      Given I am on "/"
-     And I press   "Confirmare şi continuare"
+     And I press the xpath "//*[@id='block-menu-menu-header-menu-anonymous']/div/ul/li/a"
+     And I press the xpath "//*[@id='block-pfizer-webinars-login-pfizer-connect-block']/div/div/button"
      When I switch to popup
-     And I fill in the form field with id "ctl00_ctl00_cphContent_cphContent_login_loginForm_txtEmailBox" number "" with the value of "nic.antonini@theuniprogroup.com"
-     And I fill in the form field with id "ctl00_ctl00_cphContent_cphContent_login_loginForm_txtPasswordBox" number "" with the value of "Nic.Antonini2013"
-     And I click   "Giriş"
+     And I press the xpath "//*[@id='ctl00_ctl00_cphContent_cphContent_login_loginLite_btnConfirm']"
      Then I should see "'logo'"
      Then I should see "Türkiye’deki sağlık çalışanları için"
      Then I should see "Kullanıcı adı Pratisyen Doktor Nic Antonini"
