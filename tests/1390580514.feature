@@ -11,7 +11,7 @@
      Given I wait for "4" seconds
  
    Scenario: "Identifying header and footer on Turkey webinar"
-     Given I am on "/tr/home"
+     Given I am on "/test"
      Then I should see "Oturumu kapat"
      Then I should see "Öne Çıkan Videolar ve Gelecek Etkinlikler"
      Then I should see "pfizer.com.tr"
