@@ -1,4 +1,4 @@
- @example @javascript
+ @example @javascript @local
  Feature: Example Test for WikiPedia
  
    Scenario: WikiPedia
