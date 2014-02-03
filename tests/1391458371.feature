@@ -5,9 +5,9 @@
      Given I am on "/la-es"
      Given I wait
      Given I am on "/"
-     And I click the xpath "//*[@id='block-views-list-events-feat-upcom']/div/div/div/div[2]/span[1]/a"
      And I press "Confirmare şi continuare"
      Given I wait for "10" seconds
+     And I click the xpath "//*[@id='block-views-list-events-feat-upcom']/div/div/div/div[2]/span[1]/a"
      When I switch to popup
      And I fill in "ctl00$ctl00$cphContent$cphContent$login$loginForm$txtEmailBox" with "Romania@pfizer.com"
      And I fill in "ctl00$ctl00$cphContent$cphContent$login$loginForm$txtPasswordBox" with "Pfizer123"
