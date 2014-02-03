@@ -1,8 +1,11 @@
  
- Feature:
+ Feature: Test Romania Site
+   Background: "Given I authenticate"
+     Given I am on "/la-es"
+     Given I wait
  
    Scenario: ROM Login header and footer
-     Given I am on "http://emarketing:Pfizer%40123@pfmededrostg.prod.acquia-sites.com/"
+     Given I am on "/"
      And I click the xpath "//*[@id='block-views-list-events-feat-upcom']/div/div/div/div[2]/span[1]/a"
      And I press "Confirmare şi continuare"
      Given I wait for "10" seconds
