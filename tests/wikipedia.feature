@@ -1,11 +1,12 @@
-<<<<<<< HEAD
-Feature: Test Test
-  Scenario: Test Visut
-    Given I am on "http://en.wikipedia.org/wiki/Main_Page
-    Then I should see "Wiki"
-    And I should now see "Muffins"
-=======
- @test_batch_find_files @example
+ 
+ Feature: Test Test
+ 
+   Scenario: Test Visut
+     Given I am on "http://en.wikipedia.org/wiki/Main_Page
+     Then I should see "Wiki"
+     And I should now see "Muffins"
+
+       @test_batch_find_files    @example
  Feature: Example Test for WikiPedia
  
    Scenario: WikiPedia
@@ -66,4 +67,5 @@ Feature: Test Test
      Then I should see "Test4"
      Then I should see "Test4"
      Then I should see "Test4"
->>>>>>> bc2bd82c7b586c34da605abb51f96b2ebeffbb67
+     Then I should see "Test4"
+     Then I should see "Test4"
