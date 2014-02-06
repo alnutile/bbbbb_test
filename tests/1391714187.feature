@@ -19,3 +19,4 @@
      Then I should see "This update8"
      Then I should see "This update9"
      Then I should see "This update10"
+     Then I should see "This update11"
