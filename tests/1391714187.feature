@@ -9,9 +9,9 @@
      Then the element ".swiper-wrapper" should have style "translate3d(-2000px, 0px, 0px)"
      Given I wait for "5" seconds
      Then the element ".swiper-wrapper" should have style "translate3d(-3000px, 0px, 0px)"
-     Then I should see "This update"
-     Test Update 1
-     Test update 2
-     Test Update 3
-     Test Update 4
-     Test Update 5
+     Then I should see "This update1"
+     Then I should see "This update2"
+     Then I should see "This update3"
+     Then I should see "This update4"
+     Then I should see "This update5"
+     Then I should see "This update6"
