@@ -16,3 +16,4 @@
      Then I should see "This update5"
      Then I should see "This update6"
      Then I should see "This update7"
+     Then I should see "This update8"
