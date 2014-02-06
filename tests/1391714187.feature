@@ -12,3 +12,4 @@
      Then I should see "This update"
      Test Update 1
      Test update 2
+     Test Update 3
