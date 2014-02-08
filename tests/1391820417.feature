@@ -1,4 +1,4 @@
- 
+ @webinar @javascript
  Feature: As an authenticated user I can see the correct header and footer for Russia
    Background: Authenticated user is logged in Russia webinar site.
      Given I am on "/"
