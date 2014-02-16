@@ -9,3 +9,4 @@
      Then I should see "Muffins"
      Then I should see "Test4"
      Then I should see "Test4"
+     Then I should see "Test4"
