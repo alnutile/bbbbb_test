@@ -9,5 +9,5 @@
    Scenario: "Testing the form"
      Given I am on "/test/guinea-pig"
      And I fill in "fbemail" with "example@example.com"
-     And I press "send"
+     And I press the xpath "//*[@id='submit']"
      Then the "fbemail" field should not contain "example@example.com"
