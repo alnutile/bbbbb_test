@@ -10,3 +10,4 @@
      Given I am on "/test/guinea-pig"
      And I fill in "fbemail" with "example@example.com"
      And I press "submit"
+     Then the "fbemail" field should not contain "example@example.com"
