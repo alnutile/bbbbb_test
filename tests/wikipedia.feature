@@ -1,6 +1,4 @@
  
- Feature: Test Test
- 
  Feature: Example Test for WikiPedia
  
    Scenario: WikiPedia
