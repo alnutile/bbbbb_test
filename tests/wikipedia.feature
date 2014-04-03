@@ -6,3 +6,5 @@
      Then I should see "WikiPedia"
      Then I should see "Test4"
      Then I should see "Test4"
+     Then I should see "Test4"
+     Then I should see "Test4"
