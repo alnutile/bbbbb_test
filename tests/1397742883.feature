@@ -1,4 +1,4 @@
-@javascript
+@javascript @readonly
  Feature: Test
  
    Scenario: "Test Home page"
