@@ -1,2 +1,6 @@
-Feature: Test
- Scenario: Just to save this folder till I finish this tes
+ 
+ Feature: Test
+ 
+   Scenario: Testing Tests
+     Given I am on "http://en.wikipedia.org/wiki/Main_Page"
+     Then I should see "Wiki"
