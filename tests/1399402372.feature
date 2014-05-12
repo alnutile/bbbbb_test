@@ -1,5 +1,5 @@
-@example
- Feature: Wikipedia
+@example @wikipedia.org @production
+ Feature: Wikipedia Donations
  
    Scenario: WikiPedia
      Given I am on "http://en.wikipedia.org/wiki/Main_Page"
