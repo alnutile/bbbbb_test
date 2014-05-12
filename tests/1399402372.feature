@@ -1,8 +1,8 @@
-@example @wikipedia.org @production
- Feature: Wikipedia Donations
+@example
+ Feature: Wikipedia
  
-   Scenario: Donations User Journey #001
+   Scenario: WikiPedia
      Given I am on "http://en.wikipedia.org/wiki/Main_Page"
-     Then I should see "TEXT_1" on the page
-     And I follow the link "DONATE_LINK"
-     Then I should see "TEXT_2" on the page
+     Then I should see "Wiki"
+     And I follow "Donate to Wikipedia"
+     Then I should see "Thanks"
