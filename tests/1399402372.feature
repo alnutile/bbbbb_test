@@ -1,8 +1,7 @@
-@example
- Feature: Example Test for WikiPedia
  
-   Scenario: WikiPedia
+ Feature: Wikipedia Donations
+ 
+   Scenario: Donations User Journey #001
      Given I am on "http://en.wikipedia.org/wiki/Main_Page"
-     Then I should see "Wiki"
-     And I follow "Donate to Wikipedia"
-     Then I should see "Thanks"
+     When I follow the link "DONATE_LINK"
+     Then I should see "TEXT_1" on the page
