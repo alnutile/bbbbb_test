@@ -1,4 +1,4 @@
-@example @wikipedia.org
+ 
  Feature: Wikipedia Donations
  
    Scenario: Donations User Journey #001
