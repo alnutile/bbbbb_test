@@ -1,4 +1,4 @@
- 
+ @javascript 
  Feature: Test Test
  
    Scenario: WikiPedia
