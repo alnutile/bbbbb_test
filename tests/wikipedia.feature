@@ -1,4 +1,4 @@
- 
+@test
  Feature: Testing
  
    Scenario: Testing Wiki
