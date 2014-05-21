@@ -1,7 +1,4 @@
- @javascript
- Feature: Test
- 
-   Scenario: Testing Tests
+ Feature: This is now via git api
+   Scenario: More coming soon
      Given I am on "http://en.wikipedia.org/wiki/Main_Page"
      Then I should see "Wiki"
-     Then I should not see "Muffins"
