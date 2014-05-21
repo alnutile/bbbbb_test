@@ -1,4 +1,4 @@
-@test
+@test @test2
  Feature: Testing
  
    Scenario: Testing Wiki
