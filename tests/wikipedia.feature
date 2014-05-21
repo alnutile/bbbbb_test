@@ -1,4 +1,4 @@
-@javascript @test
+@javascript @test @test2
  Feature: This is now via git api
  
    Scenario: More coming soon 3
