@@ -1,4 +1,4 @@
-@javascript
+@javascript @test
  Feature: This is now via git api
  
    Scenario: More coming soon 3
