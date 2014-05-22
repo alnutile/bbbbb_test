@@ -1,4 +1,4 @@
-@test_one_file
+@javascript
 Feature: Testing
   Scenario: Testing Wiki
     Given I am on "http://en.wikipedia.org/wiki/Main_Page"
