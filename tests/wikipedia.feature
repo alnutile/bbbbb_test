@@ -1,4 +1,4 @@
-@test @test2 @test4
+@test @test2 @test4 @aceEditor
  Feature: Testing
  
    Scenario: Testing Wiki
