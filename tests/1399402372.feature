@@ -1,4 +1,4 @@
-@javascript @test_update @testing_local @test_edit @test_edit2 @test_edit3
+@javascript @test_update @testing_local @test_edit @test_edit2 @test_edit3 @test_edit4
  Feature: Testing
  
    Scenario: Testing Wiki
