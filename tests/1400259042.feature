@@ -6,4 +6,4 @@
      Then I should see "Wiki"
      And I follow "Donate to Wikipedia"
      Then I should see "Thanks"
-     And I should see "MUFFINS" on the page
+     And I should see "MUFFINS2" on the page
