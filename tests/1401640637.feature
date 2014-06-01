@@ -1,4 +1,4 @@
-@example
+@example @batch_run_prod_1
  Feature: Example Test for WikiPedia
  
    Scenario: WikiPedia
