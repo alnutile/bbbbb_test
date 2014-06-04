@@ -1,5 +1,6 @@
  
  Feature: Test Sanitizer
 
-   @test
+      @test
    Scenario: "Test"
+     And I follow "<script type='text/javascript'>
