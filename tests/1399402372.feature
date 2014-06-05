@@ -2,5 +2,5 @@
  Feature: Testing
  
    Scenario: Testing Wiki
-     Given I am on "http://en.wikipedia.org/wiki/Main_Page"
+     Given I am on "https://github.com"
      Then the page is secure
