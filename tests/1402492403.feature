@@ -1,4 +1,4 @@
- 
+@test_dev_composer
  Feature: Testing
  
    Scenario: Testing Wiki
