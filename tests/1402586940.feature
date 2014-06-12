@@ -1,4 +1,4 @@
- 
+@test_mtp_6_12
  Feature: Testing
  
    Scenario: Testing Wiki
