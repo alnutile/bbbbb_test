@@ -1,8 +1,18 @@
-@example
- Feature: Example Test for WikiPedia
+@javascript
+ Feature: One third ISI
  
-   Scenario: WikiPedia
-     Given I am on "http://en.wikipedia.org/wiki/Main_Page"
-     Then I should see "Wiki"
-     And I follow "Donate to Wikipedia"
-     Then I should see "Thanks"
+   Scenario: "External Links (exit disclaimer)"
+     Given I am on "http://haemophilialife.co.uk/healthcare-professionals-section"
+     And I check "cbo-0"
+     Then the "cbo-0" checkbox should be checked
+     And I check "cbo-1"
+     Then the "cbo-1" checkbox should be checked
+     And I press "vec_hcp_disclaimer_submit"
+     And I wait
+     And I wait
+     Given I am on "http://haemophilialife.co.uk/haemophilia-refacto-af"
+     And I wait
+     And I press the element "body > div.container > div.row.below-fullwidth > section > div > div > div > div > p:nth-child(9) > span > a:nth-child(2)"
+     And I press "extlink-ok-btn"
+     And I wait
+     And I wait
