@@ -8,6 +8,8 @@
      And I check "cbo-1"
      Then the "cbo-1" checkbox should be checked
      And I press "vec_hcp_disclaimer_submit"
+     And I wait
+     And I wait
      Given I am on "http://haemophilialife.co.uk/haemophilia-refacto-af"
      And I scroll to x "0" y "500" coordinates of page
      And I wait
