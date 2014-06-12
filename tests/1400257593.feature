@@ -13,7 +13,7 @@
      Given I am on "http://haemophilialife.co.uk/haemophilia-refacto-af"
      And I scroll to x "0" y "500" coordinates of page
      And I wait
-     And I press the xpath "/html/body/div[1]/div[2]/section/div/div/div/div/p[9]/span/a[1]"
+     And I press the element "body > div.container > div.row.below-fullwidth > section > div > div > div > div > p:nth-child(9) > span > a:nth-child(2)"
      And I press "extlink-ok-btn"
      And I wait
      And I wait
