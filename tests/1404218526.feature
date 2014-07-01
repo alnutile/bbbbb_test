@@ -3,4 +3,4 @@
  
    Scenario: WikiPedia
      Given I am on "http://en.wikipedia.org/wiki/Main_Page"
-     Then I should see "SOME TEXT" on page
+     Then I should see "SOME TEXT" on the page
