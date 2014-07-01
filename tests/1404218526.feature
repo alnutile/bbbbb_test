@@ -1,4 +1,4 @@
-@example
+@mtp_1_0_5
  Feature: Example Test for WikiPedia
  
    Scenario: WikiPedia
