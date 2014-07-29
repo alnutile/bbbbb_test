@@ -2,5 +2,5 @@
  Feature: Testing
  
    Scenario: Testing Wiki
-     Given I go to the page "BAR"
-     Then I should see "FOO" on the page
+     Given I am on "http://www.alfrednutile.info/about"
+     Then I should see "Alfred"
