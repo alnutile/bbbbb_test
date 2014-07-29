@@ -1,4 +1,4 @@
-@javascript
+@javascript @sync
  Feature: Testing
  
    Scenario: Testing Wiki
