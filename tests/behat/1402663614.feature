@@ -6,3 +6,4 @@
      Then I should see "Wiki"
      And I follow "Donate to Wikipedia"
      Then I should see "Thanks"
+     And I click foo button
