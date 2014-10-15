@@ -1,8 +1,7 @@
-@example
- Feature: Example Test for WikiPedia
  
-   Scenario: WikiPedia
+ Feature: Test a Custom Step Please leave this
+ 
+   Scenario: Testing Wiki
      Given I am on "http://en.wikipedia.org/wiki/Main_Page"
      Then I should see "Wiki"
-     And I follow "Donate to Wikipedia"
-     Then I should see "Thanks"
+     And I click the foo button
