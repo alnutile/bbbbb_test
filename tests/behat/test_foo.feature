@@ -1,0 +1,7 @@
+@javascript
+ Feature: Testing
+ 
+   Scenario: Testing Wiki
+     Given I am on "http://en.wikipedia.org/wiki/Main_Page"
+     Then I should see "Wiki"
+     And I press the foo button
