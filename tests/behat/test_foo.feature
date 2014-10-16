@@ -1,4 +1,4 @@
-@javascript
+@javascript @admin
  Feature: Testing
  
    Scenario: Testing Wiki
