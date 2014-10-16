@@ -1,4 +1,4 @@
-@javascript
+@javascript @foo
  Feature: Testing
  
    Scenario: Testing Wiki
